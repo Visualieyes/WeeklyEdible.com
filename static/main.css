@@ -1,0 +1,84 @@
+body{
+    background-color: #1b1d1d !important;
+    color: #858484 !important;
+    text-align: center !important;
+    font-family: 'Inconsolata', serif !important;
+}
+
+.email-form{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+
+
+.email-input{
+    width: 90%;
+    background-color: #212424;
+    color: #858484;
+    border-style: solid;
+    border-width: 1.5px;
+    padding: 8px 15px;
+    border-radius: 2.5px;
+    border-color: #858484;
+    margin: 15px;
+}
+
+.subscribe-button{
+    color: #1b1d1d;
+    width: 90%;
+    background-color: #1cba9c;
+    border-style: none;
+    /* border-width: 1.5px; */
+    padding: 8px 15px;
+    margin: 15px;
+    border-radius: 2.5px;
+    /* border-color:#1cba9c; */
+}
+
+.mg2{
+    margin-top: 4rem;
+}
+
+.brand-title{
+    color: #1cba9c;
+    font-weight: 700;
+    font-size: 34px;
+    display:inline-block;
+    vertical-align: middle;
+    padding-left: 2px;
+
+}
+.brand-logo{
+    height: 5.5rem;
+    vertical-align: middle;
+    display:inline-block;
+    padding-right: 2px;
+}
+.brand{
+    display: flex; 
+    direction:horizontal; 
+    align-content: center;
+    justify-content: center;
+    margin-top:1.5rem;
+    margin-bottom:2rem;
+}
+
+footer{
+    text-align: center;
+}
+
+.footer-links{
+    color: #1cba9c !important;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.footer-copyright{
+    color: #858484;
+    font-size: 13px;
+    font-weight: 400;
+}

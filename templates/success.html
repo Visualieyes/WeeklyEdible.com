@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+
+<main>
+  <div class="container justify-content-center">
+    <div class="brand d-flex">
+      <img src="{{ url_for('static', filename='images/logo.png') }}" alt="WeeklyEdible" class="brand-logo">
+      <h2 class="brand-title">Weekly<br>Edible</h2>
+    </div>
+    <div class="mg2">
+      <h5 stye="font-align:center;">
+        Thank you. An email will be sent to you shortly. 
+        {# for finance, tech, mental growth, business, and music. #}
+      </h5>
+    </div>
+    <div class="d-flex justify-content-center">
+
+    </div>
+  </div>
+ </main>
+
+
+{% endblock content %}
